@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio - Samira Benali, Consultante RH</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#home" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div><i class="bi bi-moon" id="dark-mode"></i></div>
+        <div><i class="bi bi-list" id="menu-icon"></i></div>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Bonjour, je suis</h3>
+            <h1>Samira Benali</h1>
+            <h5><strong>Experte RH & Capital Humain</strong></h5>
+            <p>Avec plus de 7 ans d’expérience, j’accompagne les entreprises marocaines dans leur stratégie RH, le recrutement, la formation et le développement des talents.</p>
+            
+            <div class="social-media">
+
+                <a href="https://www.facebook.com/samira.benali" onclick="window.open(this.href, '_blank'); return false;" rel="noopener noreferrer">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/samira-benali" onclick="window.open(this.href, '_blank'); return false;" rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+
+                <a href="https://www.instagram.com/samira.benali.rh" onclick="window.open(this.href, '_blank'); return false;" rel="noopener noreferrer">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                
+                <a href="https://wa.me/212600000000" onclick="window.open(this.href, '_blank'); return false;" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+
+            </div>
+
+            <a  class="btn" id="btn-cv">
+                <i class='bx bx-download'></i>
+                Télécharger mon CV
+            </a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-user'></i>
+                    <h3>Recrutement</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-group'></i>
+                    <h3>Gestion Talents</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-brain'></i>
+                    <h3>Formation</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-chalkboard'></i>
+                    <h3>Coaching RH</h3>
+                </div>
+
+                <div class="circle"></div>
+
+            </div>
+
+            <div class="overlay"></div>   
+                
+        </div>
+
+        <div class="home-img">
+            <img src="medias/profile.webp" alt="Photo professionnelle de Samira Benali" />
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-container">
+
+            <div class="about-img">
+
+                <img src="medias/profil.webp" alt="Portrait de Samira Benali" />
+
+            </div>
+
+            <div class="about-content">
+
+                <h1>À propos de <strong>Moi</strong></h1>
+                <p>Diplômée en ressources humaines et psychologie du travail, je possède une solide expérience en recrutement, gestion des compétences, développement organisationnel et coaching professionnel. Je mets ma passion au service des entreprises pour construire des équipes performantes et motivées.</p>
+
+                <a href="#about" class="btn">En savoir plus</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+        <h1>Mes <span>Services</span></h1>
+
+        <div class="services-container">
+
+            <div class="services-content">
+                <i class='bx bx-user'></i>
+                <h4>Recrutement & Sourcing</h4>
+                <p>Accompagnement complet dans le recrutement de profils adaptés, tri des candidatures, entretiens et intégration des talents au sein de votre organisation.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+            <div class="services-content">
+                <i class='bx bx-group'></i>
+                <h4>Gestion des Talents</h4>
+                <p>Mise en place de plans de développement, gestion des performances, mobilité interne et fidélisation des collaborateurs clés.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+            <div class="services-content">
+                <i class='bx bx-brain'></i>
+                <h4>Formation & Coaching</h4>
+                <p>Conception et animation de formations sur mesure, coaching individuel et collectif pour booster la motivation et les compétences des équipes.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+    <h1>Mes <span>Réalisations</span></h1>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+        <div class="project-icon" aria-hidden="true">
+            <i class="bx bx-user-check"></i>
+        </div>
+        <div class="project-metrics">
+            <span class="project-number">150+</span>
+            <p class="project-label">Recrutements réussis</p>
+        </div>
+        <h3 class="project-title">Campagne de Recrutement</h3>
+        <p class="project-description">Réduction du délai d’embauche de 30% dans une PME marocaine grâce à un processus optimisé et ciblé.</p>
+        </article>
+
+        <article class="project-card">
+        <div class="project-icon" aria-hidden="true">
+            <i class="bx bx-group"></i>
+        </div>
+        <div class="project-metrics">
+            <span class="project-number">85%</span>
+            <p class="project-label">Taux de fidélisation</p>
+        </div>
+        <h3 class="project-title">Gestion des Talents</h3>
+        <p class="project-description">Plan de développement avec une rétention de talents clés à 85% sur 2 ans dans une grande entreprise.</p>
+        </article>
+
+        <article class="project-card">
+        <div class="project-icon" aria-hidden="true">
+            <i class="bx bx-brain"></i>
+        </div>
+        <div class="project-metrics">
+            <span class="project-number">1200h</span>
+            <p class="project-label">Heures de formation</p>
+        </div>
+        <h3 class="project-title">Formation & Coaching</h3>
+        <p class="project-description">Sessions de formation et coaching pour 200+ collaborateurs, améliorant motivation et performance.</p>
+        </article>
+
+        <article class="project-card">
+        <div class="project-icon" aria-hidden="true">
+            <i class="bx bx-bar-chart-alt-2"></i>
+        </div>
+        <div class="project-metrics">
+            <span class="project-number">25%</span>
+            <p class="project-label">Gain de productivité</p>
+        </div>
+        <h3 class="project-title">Optimisation des Processus</h3>
+        <p class="project-description">Audit RH et optimisation ayant conduit à +25% de productivité dans une entreprise industrielle.</p>
+        </article>
+
+    </div>
+    </section>
+
+    <div class="temoignages-contenair">
+
+        <h1>Derniers <span>Témoignages</span></h1>
+
+        <div class="temoignages-wrapper">
+            <div class="temoignages-box mySwiper">
+                <div class="temoignages-content swiper-wrapper">
+                    <div class="temoignages-slide swiper-slide">
+                        <img src="medias/tem2.png" alt="Photo Ahmed El Hadi" />
+                        <h4>Ahmed El Hadi</h4>
+                        <p>
+                            "Samira a transformé notre gestion du personnel grâce à ses solutions concrètes et son écoute attentive. Une vraie professionnelle du capital humain."
+                        </p>
+                    </div>
+                    <div class="temoignages-slide swiper-slide">
+                        <img src="medias/woman-empty.png" alt="Photo Fatima Zahra" />
+                        <h4>Fatima Zahra</h4>
+                        <p>
+                            "Sa maîtrise du recrutement et du développement RH a permis à notre équipe d’évoluer rapidement et sereinement."
+                        </p>
+                    </div>
+                    <div class="temoignages-slide swiper-slide">
+                        <img src="medias/tem1.png" alt="Photo Yassine Rifi" />
+                        <h4>Yassine Rifi</h4>
+                        <p>
+                            "Je recommande vivement Samira pour son professionnalisme, son sérieux et sa capacité à fédérer les collaborateurs."
+                        </p>  
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+
+        <h1>Contactez<span> Moi</span></h1>
+
+        <form action="https://formspree.io/f/xbllqdld" method="POST">
+
+            <div class="input-box">
+
+                <input type="email" name="email" placeholder="Adresse email : exemple@gmail.com" required />
+
+            </div>
+
+            <textarea name="message" cols="20" rows="10" placeholder="Entrez votre message" required></textarea>
+            <input type="submit" value="Envoyer votre message" class="sender" />
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 par Artivisio | Tous droits réservés</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bi bi-arrow-up"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

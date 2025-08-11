@@ -778,6 +778,10 @@ section{
     cursor: pointer;
     margin-top: 2rem;
 }
+.contact form .sender i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
 
 .contact form .sender:hover{
     background-color: var(--secondary-bg-color);
@@ -799,6 +803,14 @@ footer .footer-text p{
     justify-content: center;
     align-items: center;
     color: var(--secondary-bg-color);
+}
+footer .footer-text p a{
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-bg-color);
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 footer .footer-iconTop i{
